@@ -28,7 +28,7 @@ public class Main {
 	}
     }
 
-    private static void checkTests(Class test) {
+    private static void checkTests(Class<?> test) {
 	Method[] methods = test.getMethods();
 	int pass = 0;
 	int fail = 0;
