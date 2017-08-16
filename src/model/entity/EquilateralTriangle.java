@@ -1,5 +1,6 @@
 package model.entity;
 
+@Deprecated
 public class EquilateralTriangle {
 
     protected int side;
