@@ -6,6 +6,10 @@ import model.util.test.SquareTest;
 public class Main {
 
     public static void main(String[] args) {
+	checkTests();
+    }
+
+    private static void checkTests() {
 	Class test = SquareTest.class;
 
 	Method[] methods = test.getMethods();
