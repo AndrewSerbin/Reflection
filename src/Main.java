@@ -24,7 +24,7 @@ public class Main {
 
 	Annotation[] annotations = clazz.getAnnotations();
 	for (int i = 0; i < annotations.length; i++) {
-	    System.out.println(annotations[i].annotationType().getName());
+	    System.out.println(annotations[i]);
 	}
     }
 
