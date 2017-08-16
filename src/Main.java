@@ -18,7 +18,6 @@ public class Main {
 	System.out.println(clazz.getName());
 
 	Field[] fields = clazz.getDeclaredFields();
-	System.out.println(fields.length);
 	for (int i = 0; i < fields.length; i++) {
 	    System.out.println(fields[i]);
 	}
