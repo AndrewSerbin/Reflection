@@ -10,5 +10,5 @@ import java.lang.annotation.Target;
 @Target(METHOD)
 public @interface Test {
 
-    Class expected();
+    Class<? extends Throwable> expected();
 }
